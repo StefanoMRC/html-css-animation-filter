@@ -156,3 +156,64 @@
 }
 /* FINE ESERCIZIO 12 */
 
+/* ESERCIZIO 13 */
+.ex-13-top-white{
+    animation-name: es-t-13;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+.ex-13-bottom-white{
+    animation-name: es-b-13;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes es-t-13{
+    0% {left: 10%;
+        top: -10px;
+    }
+  
+    30% {
+        left: 100%;
+        top: -10px;
+    }
+    50% {left:100% - 20px;
+        top: 100%;
+    }
+    75% {
+        left: 30px;
+        top: 100%;
+    }
+    85% {
+        left: -5px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}   
+@keyframes es-b-13{
+    0% {right: 10%;
+        bottom: -10px;
+    }
+
+    30% {
+        right: 100%;
+        bottom: -10px;
+    }
+    50%{right:100% - 20px;
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    85% {
+        right: -20px;
+        bottom: -10px;
+    }
+    100% {
+        right: 10%;
+        bottom: -10px;
+    }
+}
