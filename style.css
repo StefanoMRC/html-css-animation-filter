@@ -42,12 +42,14 @@
     transition: all 2s;
 }
 .ex-5-square:hover{
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
+    transform: scale(2);
 }
 .ex-5-square:active{
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
+    transform: scale(0.5);
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
